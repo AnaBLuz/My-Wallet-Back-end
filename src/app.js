@@ -78,6 +78,6 @@ app.post("/", async(req,res) => {
 
 })
   
+const port = process.env.PORT || 5000
 
-
-app.listen(5000, () => console.log("Servidor rodando"))
+app.listen(port, () => console.log("Servidor rodando"))
